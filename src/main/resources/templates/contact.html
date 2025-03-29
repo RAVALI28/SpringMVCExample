@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+<h2>Contact Form</h2>
+<a href="/submitForm">Go to Submit Form</a>
+<form action="/submitForm" method="post">
+    Name: <input type="text" name="name" required><br>
+    Email: <input type="email" name="email" required><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
